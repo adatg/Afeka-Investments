@@ -1,0 +1,610 @@
+@media all and (min-width: 1366px) and (min-height: 768px) {
+	
+	.contact-list {
+		max-width: 60%;
+	}
+}
+
+@media all and (max-width: 1366px) and (max-height: 1024px) {
+	.shiranlogo {
+		margin-left: 13%;
+	}
+}
+@media all and (max-width: 1222px) {
+	.shiranlogo {
+		width: 190px !important;
+	}
+	.contact-list {
+		width: 108%;
+	}
+	.contact-list li {
+		padding: 3%;
+		font-size: 16px;
+		font-weight: normal;
+	}
+}
+
+@media all and (max-width: 1024px) and (max-height: 1366px) {
+	header.hero, .main-image, .content-right, .content-left, .about-left, .about-right {
+		max-height: 100%;
+		height: 760px;
+	}
+
+	header.hero {
+		padding: 0;
+	}
+
+	.intro-text {
+    	padding-top: 13%;
+	}
+
+	#intro .row:after {
+		clear: none;
+	}
+
+	.shiranlogo {
+    	margin-left: 10%;
+	}
+	.contact-list {
+		max-width: 60%;
+	}
+}
+
+@media all and (max-width: 1066px) {
+	.intro-list {
+		margin-top: 7%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.content-left {
+		height: calc(100vh - 39.2em);
+	}
+
+	.content-right, .main-image {
+		background-attachment: scroll;
+	}
+}
+
+@media all and (max-width: 992px) {
+	
+	.content-left h2 {
+    	max-width: 100%;
+    	margin-top: 6%;
+    	margin-left: -24%;
+	}
+	.content-left h2:after {
+		top: 111%;
+		left: 21.5%;
+	}
+
+	.intro-list, .about-right-content {
+		margin-left: auto;
+    	margin-right: auto;
+    	width: 62%;
+	}
+
+	.intro-list li {
+		font-size: 16px;
+	}
+
+	.intro-list li:first-child {
+		padding-top: 13%;
+	}
+
+	.about-left {
+		display: none;
+	}
+
+	.about-right-content {
+		margin-top: 6%;
+	}
+
+	.shiranlogo {
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.contact-list {
+    	width: 100%;
+	}
+
+	.contact-list li {
+		font-size: 18px;
+    	font-weight: bold;
+	}
+
+	footer {
+		margin-top: 6%;
+	}
+
+	.contact-list li:hover, .intro-list li:hover { 
+		transform: none; 
+	}
+}
+
+@media all and (max-width: 991px) {
+	.intro-text {
+    	padding-top: 10%;
+	}
+	.intro-text p {
+		font-size: 23px;
+	}
+}
+
+@media all and (max-width: 812px) and (max-height: 376px) {
+	header.hero, .main-image, {
+		
+	}
+
+	.content-right {
+		height: 545px;
+	}
+
+	#intro {
+    	height: 672px;
+	}
+
+	#about {
+	    height: 520px;
+	}
+
+	.about-right-content {
+	    margin-top: 11%;
+	}
+
+	.content-left {
+    	height: 63px;
+	}
+
+	.intro-text {
+		padding-top: 2%;
+
+	}
+
+	.intro-text p {
+		margin-right: 21%;
+		margin-left: 21%;
+	}
+	.text-center img {
+		width: 90px;
+	}
+
+	.text-center h1 {
+	    font-size: 170%;
+	}
+	.intro-text p {
+    	font-size: 120%;
+	}
+
+	.btn.primary {
+		font-size: 9px;
+		padding: 15px 30px;
+	}
+
+	header.hero .hero-bg .hero-intro-text {
+    	margin-top: 0px;
+    }
+
+    .shiran-logo {
+		margin-left: 0;
+	}
+	.contact-list {
+		max-width: 62%;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 768px) and (max-height: 1024px) {
+	header.hero, .main-image, #intro, #about, .content-right, .about-left, .about-right {
+		height: 700px;
+	}
+
+	.content-left {
+		height: 60px;
+	}
+
+	#intro, #about {
+		height: 797px;
+	}
+
+	.about-right {
+		margin-top: 30%;
+	}
+
+	.shiran-logo {
+		margin-left: 0;
+	}
+	.contact-list {
+		max-width: 62%;
+		margin: 0 auto;
+	}
+}
+
+@media all and (max-width: 736px) and (max-height: 414px) {
+	.intro-text img {
+		width: 90px;
+	}
+
+	#intro, #about {
+    height: 752px;
+}
+	.text-center h1 {
+	    font-size: 170%;
+	}
+	.intro-text p {
+    	font-size: 120%;
+	}
+
+	.btn.primary {
+		font-size: 9px;
+		padding: 15px 30px;
+	}
+
+	.content-left {
+		height: 51px;
+	}
+
+	.content-left h2, .about-right-content h2, .contact-container h2 {
+		font-size: 126%;
+	}
+
+	.content-right {
+		height: 640px;
+	}
+
+	.about-right {
+	    margin-top: 10%;
+	}
+
+	.contact-container {
+    	padding: 0;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 62%;
+	}
+}
+
+@media all and (max-width: 720px) {
+	.intro-list, .about-right-content {
+		width: 71%;
+	}
+
+	.content-left h2 {
+		margin-left: -34%;
+	}
+
+	.content-left h2:after {
+		left: 16.5%;
+	}
+}
+
+@media all and (max-width: 668px) and (max-height: 376px) {
+	.content-left {
+	    height: 42.33px;
+	}
+
+	.contact-container {
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 71%;
+	}
+}
+
+@media all and (max-width: 650px) {
+	footer {
+		margin-top: 9%;
+	}
+}
+
+@media all and (max-width: 620px) {
+	h2 {
+		font-size: 35px;
+	}
+	.content-left h2:after {
+    	top: 97%;
+	}
+
+	.intro-list li {
+		font-size: 16px;
+	}
+}
+
+@media all and (max-width: 568px) and (max-height: 320px) {
+	.content-left {
+    	height: 47px;
+	}
+
+	.content-right {
+    	height: 623px;
+	}
+
+	#intro, #about {
+    	height: 720.5px;
+	}
+	.contact-list {
+    max-width: 73%;
+}
+}
+
+@media all and (max-width: 560px) {
+	footer {
+		margin-top: 16%;
+	}
+
+	.content-left h2 {
+    	width: 39%;
+	}
+}
+
+@media all and (max-width: 520px) {
+	footer {
+		margin-top: 20%;
+	}
+
+	.about-right-content p {
+    	font-size: 16px;
+    }
+    
+}
+
+@media all and (max-width: 519px) {
+	.intro-text {
+    	padding-top: 23%;
+	}
+	.intro-text p {
+		font-size: 21px;
+	}
+	.about-right-content h2:before {
+		margin-top: 7%;
+	}
+}
+
+@media all and (max-width: 510px) {
+	.content-left h2 {
+    	width: 40%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.content-left h2 {
+    	width: 41%;
+	}
+}
+
+@media all and (max-width: 490px) {
+	.content-left h2 {
+    	width: 50%;
+    	margin-left: -22%;
+	}
+	.intro-text p {
+    	font-size: 20px;
+    	margin-right: 15%;
+    	margin-left: 15%;
+	}
+	.intro-list, .about-right-content {
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.header-nav-wrapper {
+    	border-bottom: none;
+	}
+}
+
+@media all and (max-width: 470px) {
+	.intro-list, .about-right-content {
+		width: 80%;
+	}
+}
+
+@media all and (max-width: 450px) {
+	.intro-list, .about-right-content {
+		width: 85%;
+	}
+}
+
+@media all and (max-width: 414px) and (max-height: 736px) {
+	.contact-list {
+    	max-width: 82%;
+	}
+
+	header.hero, .main-image {
+		height: 736px;
+	}
+
+	.intro-text p {
+    	margin-right: 10%;
+    	margin-left: 10%;
+	}
+
+	.btn.primary {
+		width: 100%;
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	#contact p {
+		margin-bottom: 0;
+	}
+
+	header.hero .hero-bg .hero-intro-text {
+		margin-left: 8%;
+		margin-right: 8%;
+		
+	}
+
+	.contact-container {
+    	padding: 0 1.5em 0 1.5em;
+    }
+
+    #about {
+	    height: 625px;
+	}
+
+	.about-right {
+		height: 550px;
+    	margin-top: 20%;
+	}
+
+	#contact {
+		padding-top: 20%;
+	}
+
+	 footer {
+	    margin-top: 5%;
+    }
+}
+
+@media all and (max-width: 376px) and (max-height: 812px) {
+	#intro {
+    	height: 866px;
+	}
+
+	#about {
+	    height: 625px;
+	}
+
+	#contact {
+		padding-top: 20%;
+	}
+
+	.content-left {
+		height: 80px;
+	}
+
+	.content-right {
+		height: 753.33px;
+	}
+
+	.about-right {
+		height: 550px;
+    	margin-top: 20%;
+	}
+	.contact-list {
+    	max-width: 84%;
+	}
+	
+	.intro-text p {
+		margin-right: 9%;
+	    margin-left: 9%;
+	}
+
+	.btn.primary {
+		width: 100%;
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+
+	#contact p {
+		margin-bottom: 0;
+	}
+
+	header.hero .hero-bg .hero-intro-text {
+		margin-left: 8%;
+		margin-right: 8%;
+		
+	}
+
+	.contact-container {
+    	padding: 0 1.5em 0 1.5em;
+    }
+
+     footer {
+	    margin-top: 5%;
+    }
+
+}
+
+@media all and (max-width: 376px) and (max-height: 668px) {
+	header.hero, .main-image {
+		height: 760px;
+	}
+
+	.content-right {
+		height: 753.33px;
+	}
+}
+
+@media all and (max-width: 360px) and (max-height: 640px) {
+	.content-left {
+    	height: 82px;
+	}
+	.content-right {
+    	height: 667px;
+	}
+}
+
+@media all and (max-width: 320px) and (max-height: 568px) {
+	h2 {
+    	font-size: 26px;
+	}
+
+	header.hero, .main-image {
+		height: 568px;
+	}
+
+	.intro-text p {
+		    margin-right: 4%;
+    margin-left: 4%;
+	}
+	#intro {
+    	height: 979px;
+	}
+	#about {
+    height: 752px;
+}
+
+	.content-left {
+	    height: 85px;
+	}
+	.content-left h2:after {
+    	top: 70px;
+	}
+	.content-right {
+    	    height: 865px;
+    	
+	}
+	.intro-text img {
+    	width: 110px;
+	}
+
+	.contact-list {
+    max-width: 90%;
+}
+}
+
+@media all and (max-width: 320px) and (max-height: 480px) {
+	.intro-text img {
+    	width: 80px;
+	}
+	header.hero, .main-image {
+		height: 480px;
+	}
+	.content-left {
+    	height: 80px;
+	}
+	.content-right {
+    height: 865px;
+}
+	#intro {
+		height: 975px;
+		
+	}
+
+	#about {
+		height: 758px;
+	}
+	.intro-text p {
+	    font-size: 19px;
+	    margin-right: 10%;
+	    margin-left: 10%;
+	}
+}
+
+
+
+
+
